@@ -1,0 +1,2 @@
+# NextAuth session undefined in getServerSideProps
+This bug demonstrates an issue where the NextAuth session is undefined when using `getServerSideProps`, but works correctly in other functions like `getServerSession`.  This is often caused by improper configuration or a mismatch between how you are fetching the session and where you are attempting to access it. The solution shows how to correctly implement it.
